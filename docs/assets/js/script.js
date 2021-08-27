@@ -1,0 +1,1 @@
+let menu=document.getElementById("mobile");function menuClicked(){menu.classList.contains("invisible")?menu.classList.remove("invisible"):menu.classList.add("invisible")}function removeClass(){menu.classList.add("invisible")}

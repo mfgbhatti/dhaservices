@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>DHA UK Services</title>
+  </head>
+
+  <body>
+    <div class="relative bg-indigo-400">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div
+          class="
+            flex
+            justify-between
+            items-center
+            py-6
+            md:justify-start md:space-x-10
+          "
+        >
+          <div class="flex justify-start lg:w-0 lg:flex-1">
+            <a href="/">
+              <span class="sr-only">DHA UK Services</span>
+              <img class="h-16 w-auto" src=" ./assets/img/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="-mr-2 -my-2 md:hidden">
+            <button
+              type="button"
+              class="
+                bg-white
+                rounded-md
+                p-2
+                inline-flex
+                items-center
+                justify-center
+                text-gray-400
+                hover:text-gray-500 hover:bg-gray-100
+                focus:outline-none
+                focus:ring-2
+                focus:ring-inset
+                focus:ring-indigo-500
+              "
+              aria-expanded="false"
+              onclick="menuClicked()"
+            >
+              <span class="sr-only">Open menu</span>
+              <svg
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+          <nav class="hidden md:flex space-x-10">
+            <div class="relative flex">
+              <div
+                class="flex flex-grow text-white text-sm lg:text-lg capitalize"
+              >
+                <a
+                  href="mailto:info@dhaservices.co.uk"
+                  class="cursor-pointer px-4 lowercase"
+                  >info@dhaservices.co.uk</a
+                >
+              </div>
+              <div
+                class="flex flex-grow text-white text-sm lg:text-lg capitalize"
+              >
+                <a href="tel:02031372979" class="cursor-pointer px-4"
+                  >0203 137 2979</a
+                >
+              </div>
+              <div
+                class="flex flex-grow text-white text-sm lg:text-lg capitalize"
+              >
+                <a href="#our-mission" class="cursor-pointer px-4"
+                  >our mission</a
+                >
+              </div>
+              <div
+                class="flex flex-grow text-white text-sm lg:text-lg capitalize"
+              >
+                <a href="#services" class="cursor-pointer px-4">services</a>
+              </div>
+              <div
+                class="flex flex-grow text-white text-sm lg:text-lg capitalize"
+              >
+                <a href="#department" class="cursor-pointer px-4"
+                  >departments</a
+                >
+              </div>
+              <div
+                class="flex flex-grow text-white text-sm lg:text-lg capitalize"
+              >
+                <a href="#about" class="cursor-pointer px-4">about</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div
+      id="mobile"
+      class="
+        absolute
+        top-0
+        inset-x-0
+        p-2
+        transition
+        transform
+        origin-top-right
+        md:hidden
+        invisible
+        z-40
+      "
+    >
+      <div
+        class="
+          rounded-lg
+          shadow-lg
+          ring-1 ring-black ring-opacity-5
+          bg-white
+          divide-y-2 divide-gray-50
+        "
+      >
+        <div class="pt-5 pb-6 px-5">
+          <div class="flex items-center justify-between">
+            <div>
+              <svg
+                class="h-8"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:svg="http://www.w3.org/2000/svg"
+                viewBox="0 0 831.49602 756.09498"
+              >
+                <path
+                  d="M32.560547 30.962891L32.560547 256.41406 97.408203 256.41406C133.18582 256.41406 160.01744 253.9982 177.90625 249.16602 195.79506 244.23317 211.12853 235.92775 223.90625 224.25 235.08676 214.08229 243.39368 202.35295 248.82422 189.06445 254.25475 175.6753 256.96875 160.47423 256.96875 143.46094 256.96875 126.64899 254.25475 111.59904 248.82422 98.310547 243.39368 85.022058 235.08676 73.294656 223.90625 63.126953 211.23501 51.449187 196.00889 43.193497 178.22656 38.361328 160.55072 33.42848 133.61174 30.962891 97.408203 30.962891L32.560547 30.962891zM304.08789 30.962891L304.08789 256.41406 365.58008 256.41406 365.58008 160.82617 456.30078 160.82617 456.30078 256.41406 517.79492 256.41406 517.79492 30.962891 456.30078 30.962891 456.30078 116.88477 365.58008 116.88477 365.58008 30.962891 304.08789 30.962891zM637.29688 30.962891L548.9707 256.41406 610.7832 256.41406 625.95703 215.33984 722.10938 215.33984 737.12305 256.41406 798.93555 256.41406 710.60938 30.962891 637.29688 30.962891zM94.052734 74.904297L116.0957 74.904297C141.3317 74.904297 160.55026 80.744109 173.75391 92.421875 186.95755 104.09963 193.56055 121.11212 193.56055 143.46094 193.56055 165.91043 186.90388 183.0243 173.59375 194.80273 160.3901 206.58116 141.22522 212.4707 116.0957 212.4707L94.052734 212.4707 94.052734 74.904297zM674.0332 83.814453L706.61719 173.51172 641.29102 173.51172 674.0332 83.814453z"
+                />
+                <path
+                  d="M304.16211 255.96484L304.16211 259.07422 365.57031 259.07422 365.58008 256.41406 304.16211 255.96484zM456.30078 256.41406L456.33398 259.07422 517.79492 259.07422 517.79492 256.41406 456.30078 256.41406zM304.16211 270.41406L304.16211 281.07422 365.49023 281.07422 365.5293 270.41406 304.16211 270.41406zM456.47266 270.41406L456.60156 281.07422 517.79492 281.07422 517.79492 270.41406 456.47266 270.41406zM154.61523 292.41406L154.61523 447.56836C154.61523 492.81109 163.40247 526.49339 180.97656 548.61523 198.55065 570.73707 225.29882 581.79883 261.2207 581.79883 297.25312 581.79883 324.05677 570.73707 341.63086 548.61523 359.20495 526.49339 364.68886 501.34986 364.85352 456.10742L365.44922 292.41406 304.16211 292.41406 304.16211 447.56836C304.16211 473.97185 300.79109 492.88305 294.04883 504.30078 287.41711 515.57578 276.47369 521.21289 261.2207 521.21289 246.07824 521.21289 235.1368 515.57578 228.39453 504.30078 221.7628 492.88305 218.44531 473.97185 218.44531 447.56836L218.44531 292.41406 154.61523 292.41406zM456.74023 292.41406L460.30078 583.64844 517.79492 583.29688 517.79492 468.94922 623.42188 583.64844 703.73242 583.64844 571.60352 430.32617 691.4043 292.41406 616.92383 292.41406 517.79492 398.72461 517.79492 292.41406 456.74023 292.41406z"
+                />
+                <path
+                  d="M71.310547 609.02344C58.51267 609.02344 48.700583 611.83456 41.875 617.45508 35.049417 623.07559 31.636719 631.10793 31.636719 641.55273 31.636719 649.88983 34.076842 656.51757 38.958984 661.43555 43.888694 666.3535 51.663677 669.93539 62.28125 672.18359L72.875 674.50195C79.321505 675.90709 83.611161 677.50144 85.744141 679.28125 87.924444 681.06108 89.013672 683.58855 89.013672 686.86719 89.013672 690.52053 87.425807 693.33165 84.25 695.29883 81.074193 697.266 76.499637 698.25 70.527344 698.25 64.649698 698.25 58.535208 697.35991 52.183594 695.58008 45.879546 693.7534 39.338806 691.05965 32.560547 687.5L32.560547 710.33398C39.338806 712.81636 46.116515 714.69044 52.894531 715.95508 59.67279 717.21968 66.427511 717.85156 73.158203 717.85156 87.425552 717.85156 98.018982 715.04044 104.93945 709.41992 111.90725 703.75258 115.39258 695.13531 115.39258 683.56641 115.39258 674.76092 112.90281 667.96883 107.92578 663.19141 102.94875 658.41396 94.560185 654.85359 82.757812 652.51172L71.095703 650.19336C65.550054 649.06925 61.711104 647.73511 59.578125 646.18945 57.49247 644.59698 56.451172 642.39618 56.451172 639.58594 56.451172 635.83892 58.014095 633.07476 61.142578 631.29492 64.270819 629.51509 69.105331 628.625 75.646484 628.625 80.576193 628.625 85.813726 629.28033 91.359375 630.5918 96.905267 631.90324 102.59375 633.84775 108.42383 636.42383L108.42383 614.22266C101.83535 612.48965 95.460903 611.20244 89.298828 610.35938 83.136995 609.46944 77.140869 609.02344 71.310547 609.02344zM569.29297 609.02344C551.61271 609.02344 537.60658 613.91796 527.27344 623.70703 516.94029 633.44926 511.77344 646.70477 511.77344 663.47266 511.77344 680.1937 516.94029 693.44921 527.27344 703.23828 537.60658 712.98051 551.61271 717.85156 569.29297 717.85156 575.21794 717.85156 580.90642 717.19623 586.35742 715.88477 591.80842 714.57333 597.04595 712.62881 602.07031 710.05273L602.07031 688.34375C596.99863 691.76292 591.99807 694.26885 587.06836 695.86133 582.13889 697.4538 576.94905 698.25 571.49805 698.25 561.73352 698.25 554.05415 695.15912 548.46094 688.97656 542.86796 682.79398 540.07227 674.29215 540.07227 663.47266 540.07227 652.60632 542.86796 644.081 548.46094 637.89844 554.05415 631.71586 561.73352 628.625 571.49805 628.625 576.94905 628.625 582.13889 629.4212 587.06836 631.01367 591.99807 632.60617 596.99863 635.11211 602.07031 638.53125L602.07031 616.82227C597.04595 614.24619 591.80842 612.30167 586.35742 610.99023 580.90642 609.67877 575.21794 609.02344 569.29297 609.02344zM760.97852 609.02344C748.1804 609.02344 738.36855 611.83456 731.54297 617.45508 724.71738 623.07559 721.30469 631.10793 721.30469 641.55273 721.30469 649.88983 723.74481 656.51757 728.62695 661.43555 733.55666 666.3535 741.33165 669.93539 751.94922 672.18359L762.54297 674.50195C768.98948 675.90709 773.27914 677.50144 775.41211 679.28125 777.59242 681.06108 778.68164 683.58855 778.68164 686.86719 778.68164 690.52053 777.09378 693.33165 773.91797 695.29883 770.74216 697.266 766.16761 698.25 760.19531 698.25 754.31767 698.25 748.20318 697.35991 741.85156 695.58008 735.54752 693.7534 729.00678 691.05965 722.22852 687.5L722.22852 710.33398C729.00678 712.81636 735.7862 714.69044 742.56445 715.95508 749.34247 717.21968 756.09524 717.85156 762.82617 717.85156 777.09352 717.85156 787.68914 715.04044 794.60938 709.41992 801.57718 703.75258 805.06055 695.13531 805.06055 683.56641 805.06055 674.76092 802.57078 667.96883 797.59375 663.19141 792.61696 658.41396 784.22839 654.85359 772.42578 652.51172L760.76562 650.19336C755.21973 649.06925 751.37907 647.73511 749.24609 646.18945 747.16044 644.59698 746.11914 642.39618 746.11914 639.58594 746.11914 635.83892 747.68207 633.07476 750.81055 631.29492 753.93879 629.51509 758.77501 628.625 765.31641 628.625 770.24587 628.625 775.48341 629.28033 781.0293 630.5918 786.57495 631.90324 792.26148 633.84775 798.0918 636.42383L798.0918 614.22266C791.50308 612.48965 785.12863 611.20244 778.9668 610.35938 772.80472 609.46944 766.8086 609.02344 760.97852 609.02344zM139.42383 610.91992L139.42383 715.81445 214.86133 715.81445 214.86133 695.36914 166.79688 695.36914 166.79688 671.3418 210.52344 671.3418 210.52344 650.89648 166.79688 650.89648 166.79688 631.36523 213.29688 631.36523 213.29688 610.91992 139.42383 610.91992zM238.89258 610.91992L238.89258 715.81445 266.26562 715.81445 266.26562 676.11914 274.01562 676.11914C278.47137 676.11914 282.02541 677.07966 284.67969 679 287.38153 680.92034 290.03758 684.50223 292.64453 689.74805L305.58398 715.81445 334.73438 715.81445 319.875 686.02539C316.84141 679.98334 313.83198 675.48593 310.8457 672.53516 307.907 669.53754 304.56498 667.61846 300.82031 666.77539 307.6459 664.66769 312.74208 661.38901 316.10742 656.93945 319.52034 652.48987 321.22656 646.79917 321.22656 639.86719 321.22656 629.84393 317.95522 622.51387 311.41406 617.87695 304.92024 613.24004 294.68214 610.91992 280.69922 610.91992L238.89258 610.91992zM338.36133 610.91992L377.67969 715.81445 410.31445 715.81445 449.63281 610.91992 422.11719 610.91992 394.0332 688.34375 365.87695 610.91992 338.36133 610.91992zM463.71094 610.91992L463.71094 715.81445 491.08398 715.81445 491.08398 610.91992 463.71094 610.91992zM624.75195 610.91992L624.75195 715.81445 700.1875 715.81445 700.1875 695.36914 652.125 695.36914 652.125 671.3418 695.85156 671.3418 695.85156 650.89648 652.125 650.89648 652.125 631.36523 698.62305 631.36523 698.62305 610.91992 624.75195 610.91992zM266.26562 630.52148L277.7832 630.52148C283.51864 630.52148 287.61925 631.55244 290.08398 633.61328 292.59604 635.67415 293.85156 639.09367 293.85156 643.87109 293.85156 648.69537 292.59604 652.16183 290.08398 654.26953 287.61925 656.37721 283.51864 657.42969 277.7832 657.42969L266.26562 657.42969 266.26562 630.52148z"
+                />
+                <rect
+                  width="818.27216"
+                  height="742.87109"
+                  x="6.6119499"
+                  y="6.6119499"
+                  style="fill: none; stroke-width: 13.2239; stroke: #000"
+                />
+              </svg>
+            </div>
+            <div class="-mr-2">
+              <button
+                type="button"
+                class="
+                  bg-white
+                  rounded-md
+                  p-2
+                  inline-flex
+                  items-center
+                  justify-center
+                  text-gray-400
+                  hover:text-gray-500 hover:bg-gray-100
+                  focus:outline-none
+                  focus:ring-2
+                  focus:ring-inset
+                  focus:ring-indigo-500
+                "
+              >
+                <span class="sr-only">Close menu</span>
+                <a href="javascript:void(0);" onclick="removeClass()">
+                  <svg
+                    class="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="grid mt-6 text-indigo-400 capitalize text-lg">
+            <a
+              class="lowercase"
+              href="mailto:info@dhaservices.co.uk"
+              class="px-4"
+              >info@dhaservices.co.uk</a
+            >
+            <a href="tel:0203 137 2979" class="px-4">0203 137 2979</a>
+            <a href="#our-mission" class="px-4">our mission</a>
+            <a href="#services" class="px-4">services</a>
+            <a href="#department" class="px-4">departments</a>
+            <a href="#about" class="px-4">about</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div
+        class="
+          w-full
+          h-full
+          bg-origin bg-no-repeat bg-security1 bg-cover
+          text-white
+        "
+      >
+        <div class="p-10 lg:p-32 overflow">
+          <div class="bg-gray-500 bg-opacity-30 mx-auto lg:w-5/6">
+            <h1 class="text-5xl font-bold text-center uppercase">
+              Innovative<br />
+              security
+            </h1>
+            <h2 class="text-center text-xl capitalize py-5">
+              for everyone's needs
+            </h2>
+            <p class="hidden w-3/5 text-center mx-auto text-lg md:block">
+              We are clear on this aspect of providing security services.
+              Strongman security will not provide any staff that have not passed
+              all the checks required to join our team. This includes the
+              eligibility to work in the UK, SIA approved and fully vetted as
+              per our standard vetting procedures. Alongside previous work
+              references, we will ensure that each individual has the correct
+              skills to carry out each task that our clients are paying for.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        id="our-mission"
+        class="
+          bg-indigo-400
+          md:flex md:items-center md:justify-between
+          w-full
+          h-full
+          text-white
+          p-8
+        "
+      >
+        <h1
+          class="text-xl mx-auto text-center md:w-1/5 md:text-3xl md:font-bold"
+        >
+          Limit your “always” and your “nevers.”
+        </h1>
+        <div class="md:flex md:flex-col items-center py-8 md:w-3/5">
+          <h1 class="text-xl pb-4 md:font-bold md:text-2xl">
+            Our Mission Statement
+          </h1>
+          <p class="md:text-lg">
+            To focus on providing a 1st class, innovative security service to
+            our clients whilst maintaining long lasting relationships.
+          </p>
+        </div>
+      </div>
+      <div id="services" class="w-full flex bg-gray-300 p-8">
+        <div class="md:w-1/2">
+          <img
+            class="hidden md:block w-full h-full md:rounded-2xl md:shadow-2xl"
+            src=" ./assets/img/security.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="
+            md:w-1/2 md:flex md:flex-col
+            justify-center
+            items-center
+            text-white
+            md:px-8
+          "
+        >
+          <h2 class="text-2xl font-bold">Fast Guard Respons</h2>
+          <p class="text-lg">
+            We have access to a large database of vetted security officers using
+            a mobile tracking device, enabling us to know instantly their
+            availability and location ensuring that the right security officer
+            is immediately assigned.
+          </p>
+        </div>
+      </div>
+      <div class="w-full flex bg-indigo-400 p-8">
+        <div
+          class="
+            md:w-1/2 md:flex md:flex-col
+            justify-center
+            items-center
+            text-white
+            md:px-8
+          "
+        >
+          <h2 class="text-2xl font-bold">Guard Monitoring</h2>
+          <p class="text-lg">
+            Unique 3play technology: Scan QR-Code checkpoints, NFC tags and
+            Beacons. QR-Patrol is the only system incorporating Internet of
+            Things technology. Better security guard tracking: Monitor guards'
+            GPS location, schedule patrols and check for missed checkpoints
+            scan.
+          </p>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            class="hidden md:block w-full h-full md:rounded-2xl md:shadow-2xl"
+            src=" ./assets/img/manned-secuirty.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="w-full flex bg-gray-300 p-8">
+        <div class="md:w-1/2">
+          <img
+            class="hidden md:block w-full md:rounded-2xl md:shadow-2xl"
+            style="height: 389.33px"
+            src=" ./assets/img/global.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="
+            md:w-1/2 md:flex md:flex-col
+            justify-center
+            items-center
+            text-white
+            md:px-8
+          "
+        >
+          <h2 class="text-2xl font-bold">Site Control</h2>
+          <p class="text-lg">
+            Real-Time Incident Reporting: Totally remote guard tour management
+            through real-time and push notifications exploiting cloud
+            technology. Increased security staff protection: Protect your guards
+            through Man Down Alerts, SOS buttons and automated push
+            notifications.
+          </p>
+        </div>
+      </div>
+      <div
+        class="w-full bg-indigo-400 flex flex-col md:flex-row text-white px-8"
+      >
+        <div class="py-8 md:w-1/2 md:pr-8">
+          <h2 class="text-2xl font-bold">Best Equipment</h2>
+          <p class="text-lg">
+            Depending on the assignment, the security officer will have the
+            following: CCTV body camera, stab vest, protective gloves, high
+            power torches, radio communication with earpiece, clickers,
+            Strongman Security App (live tracking and performance monitoring)
+          </p>
+        </div>
+        <div class="pb-8 md:py-8 md:w-1/2">
+          <h2 class="text-2xl font-bold">Dedicated Manager</h2>
+          <p class="text-lg">
+            Our dedicated manager specialists work with clients on each
+            assignment to add value by gaining a thorough understanding of the
+            client organisation, the requirements of each specific role and then
+            utilising their expertise and knowledge of the recruitment processes
+            ensuring that the right guard is assigned.
+          </p>
+        </div>
+      </div>
+      <div id="department" class="bg-gray-300 w-full h-full p-8 text-white">
+        <h1 class="text-2xl font-bold mb-4 md:text-center">
+          Premium Security Departments
+        </h1>
+        <p class="text-lg md:text-center">Unique Approach To Security</p>
+        <div class="md:flex">
+          <div class="flex flex-col mt-8 md:w-1/3 md:pr-4">
+            <div class="bg-indigo-400 text-center">
+              <img
+                class="w-full mb-4"
+                src=" ./assets/img/hotel-security.jpg"
+                alt=""
+              />
+              <h1 class="text-lg font-bold">Hotel Security</h1>
+              <p class="text-lg mb-8 text-left pl-4">
+                With a highly trained, fully licensed team of security
+                professionals, Strongman Security Services can provide you
+                manned guarding security and comprehensive hotel security
+                solutions for safety and security of you clients and customers.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col mt-8 md:w-1/3 pr-4">
+            <div class="bg-indigo-400 text-center">
+              <img
+                class="w-full mb-4"
+                src=" ./assets/img/construction.jpg"
+                alt=""
+              />
+              <h1 class="text-lg font-bold">Construction Security</h1>
+              <p class="text-lg pb-8 text-left pl-4">
+                We offer comprehensive Construction and developments security
+                solutions for construction sites. Our construction security
+                solutions Includes manned guards based at your premises,
+                Installation of CCTV cameras and fully monitored alarm systems.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col mt-8 md:w-1/3">
+            <div class="bg-indigo-400 text-center">
+              <img class="w-full mb-4" src=" ./assets/img/events.jpg" alt="" />
+              <h1 class="text-lg font-bold">Event Security</h1>
+              <p class="text-lg text-left pl-4">
+                Ensure your event runs smoothly from start to finish with our
+                range of event security guard services.
+              </p>
+              <ul class="text-left px-8 list-decimal mb-2">
+                <li>Static and Mobile Event</li>
+                <li>Security Guards</li>
+                <li>Crowd Control Services</li>
+                <li>CCTV Installation and Surveillance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="w-full h-24 bg-indigo-400"></div>
+    <div class="w-full bg-indigo-400">
+      <div class="max-w-7xl h-60 mx-auto flex justify-between pr-8">
+        <div class="px-8">
+          <img class="h-16 w-auto" src=" ./assets/img/logo.svg" alt="" />
+        </div>
+        <div class="text-white">
+          <ul>
+            <li>DHA UK SERVICES LTD</li>
+            <li>Company number 11241395</li>
+            <li>Regent 88, 210 Church Road, London, England, E10 7JQ</li>
+            <li>0203 137 2979</li>
+            <li>info@dhaservices.co.uk</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
